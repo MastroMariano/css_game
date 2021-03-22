@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CSS GAME</title>
+<style>
+body{background:black;}
+  
+#torta1{
+    left:200px;
+    top:50px;
+    position:absolute;
+    border-left: 0px solid trasparent;
+    border-right: 100px solid #FADE8B;
+    border-bottom: 100px solid #FADE8B;
+    border-top-right-radius:180px;
+   }
+   
+  #torta2{
+    width: 100px;
+    height: 100px;
+    background:#51B5A9;
+    left:100px;
+    top:50px;
+    position:absolute;
+    border-top-left-radius:180px;
+} 
+    #torta3{
+      width: 100px;
+      height: 100px;
+      background:#F7F3D7;
+      left:100px;
+      top:150px;
+      position:absolute;
+      border-top-right-radius:180px;
+      transform:rotate(180deg);
+} 
+
+</style>
+</head>
+<body>
+
+<div id="torta1"> </div>
+<div id="torta2"> </div>
+<div id="torta3"> </div>
+
+</body>
+</html>
